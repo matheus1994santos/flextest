@@ -1,7 +1,6 @@
 *{ margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
 
-a{ text-decoration: none; color: black; 
- background-color:; color: white;}
+a{ text-decoration: none; color: black; color: white;}
 
 li{ list-style-type: none; font-size: 20px; padding: 8px 4px; 
     margin: 4px 4px; }
@@ -63,7 +62,7 @@ article.content .sidebar h2 {
    
 }
 article.content .sidebar div {
-   margin: 8px auto;
+   margin: 8px auto; cursor: pointer;
 }
 
 /* final sidebar */
@@ -91,10 +90,11 @@ article.content .nav div {
 
  article.content .nav div h3 {
      border: 1px solid black;
-     height: 26px; width: 169px;
+     height: 26px; min-width: 169px;
      background-color: white;
      border-radius: 16px 16px;
-     margin: 8px auto;
+     margin: 8px auto; text-align: center;
+     padding: 0 8px;
  }
 
 /* Fina - nav */
